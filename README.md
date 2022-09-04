@@ -1,5 +1,10 @@
 # Order-Success-Model-and-Revenue-Optimization
-Summary: Shows how to maximize order success and optimize revenue for our current product based on success rates for certain points in our software workflow. This helps identify where the opportunity is to create the biggest lift in revenue for the smallest lift in workflow completion metrics. It helps solve the business problem of identifying where customer workflow fallout needs to be improved. 
+
+Summary: 
+
+The Order Completion Flowchart visual (PDF located in the repository) shows the order completion metrics (described below) that were tracked to optimize order success. 
+
+The Python model shows how to maximize order success and optimize revenue for our current product based on success rates for certain points in our software workflow. This helps identify where the opportunity is to create the biggest lift in revenue for the smallest lift in workflow completion metrics. It helps solve the business problem of identifying where customer workflow fallout needs to be improved. 
 
 The function, **success**, models VOIE Order Completion metrics based on the given inputs. The input and output documentation is below. The function is designed to demonstrate how increases in the VOIE workflow metrics can affect VOIE KPIs and revenue.
 
