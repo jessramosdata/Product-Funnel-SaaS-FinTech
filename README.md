@@ -2,7 +2,11 @@
 
 ## Executive Summary:
 
-Using SQL, Python, and Power BI, I pulled order status data from the database and created a dashboard to track orders through the funnel. After identifying that the largest revenue opportunities are to increase user interaction rate and completed login attempts, I recommend that the product team implements a few adjustments that will lead to higher conversion.
+Using SQL, Python, and Power BI, I pulled order status data from the database and created a dashboard to track orders through the funnel. After identifying that the largest revenue opportunities are to increase user interaction rate and completed login attempts, I recommend that the product team implements a few adjustments that will lead to higher conversion:
+
+1. Copy changes within the workflow
+2. Reminder emails/texts
+3. Better client relationships
 
 
 ### Business Problem: 
