@@ -2,6 +2,8 @@
 
 ## Executive Summary:
 
+Using SQL, Python, and Power BI, I pulled order status data from the database and created a dashboard to track orders through the funnel. After identifying that the largest revenue opportunities are to increase user interaction rate and completed login attempts, I recommend that the product team implements a few adjustments that will lead to higher conversion.
+
 
 ### Business Problem: 
 
@@ -18,13 +20,13 @@ Completed orders are essential for this SaaS Fintech company since they're direc
 
 ### Skills:
 
-#### SQL:
+##### SQL:
 CTEs, Joins, Case, aggregate functions
 
-#### Power BI:
+##### Power BI:
 Dax, writing functions, ETL, calculated columns, data visualization, data modeling
 
-#### Python: 
+##### Python: 
 Pandas, Matplotlib, Numpy, Writing functions, building a product funnel, statistics
 
 ### Results & Business Recommendation: 
