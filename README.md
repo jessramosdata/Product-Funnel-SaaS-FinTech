@@ -10,7 +10,7 @@ Completed orders are essential for this SaaS Fintech company since they're direc
 
 ### Methodology: 
 
-1. SQL query that extracts, cleans, and transforms the data from the database
+1. SQL query that extracts, cleans, and transforms the data from the database.
    
 2. Build a dashboard in Power BI that tracks the number of orders in each status.
 
@@ -19,13 +19,16 @@ Completed orders are essential for this SaaS Fintech company since they're direc
 
 ### Skills:
 
-SQL: CTEs, Joins, Case, aggregate functions
+#### SQL: CTEs, Joins, Case, aggregate functions
 
-Power BI: Dax, writing functions, ETL, calculated columns, data visualization, data modeling
+#### Power BI: Dax, writing functions, ETL, calculated columns, data visualization, data modeling
 
-Python: Pandas, Matplotlib, Numpy, Writing functions, building a product funnel, statistics
+#### Python: Pandas, Matplotlib, Numpy, Writing functions, building a product funnel, statistics
 
 
+### Results: 
+
+Creating a dashboard to track product orders gives product and sales stakeholders visibility into the product funnel both overall and for specific clients. Because of democratizing this data, stakeholders are now able to self serve, and the analytics team now has 5 less hours of ad hoc requets per week. This analysis showed us that almost 50% of orders fall out before entering the workflow, and less than 25% of users enter their banking credentials to connect their account. According to the model built in Python, increasing user interaction rates by 1% will result in $285 more in daily revenue and increasing completed bank logins by 1% will result in $405 more in daily revenue.
 
 
 
