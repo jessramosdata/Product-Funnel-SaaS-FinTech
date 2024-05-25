@@ -10,6 +10,7 @@ Using SQL, Python, and Power BI, I pulled order status data from the database an
 Completed orders are essential for this SaaS Fintech company since they're directly tied to revenue. Product and sales stakeholders have noticed that the product has a lower conversion rate than expected (based on users who start orders vs. complete the order). How can we determine where users are falling out of the workflow and make product adjustments to encourage users to complete their orders? 
 
 
+
 ### Methodology: 
 
 1. SQL query that extracts, cleans, and transforms the data from the database.
@@ -18,16 +19,15 @@ Completed orders are essential for this SaaS Fintech company since they're direc
 
 3. Conduct a more detailed funnel analysis in Python to simulate changes and determine the best areas of opportunity.
 
+
 ### Skills:
 
-##### SQL:
-CTEs, Joins, Case, aggregate functions
+SQL: CTEs, Joins, Case, aggregate functions
 
-##### Power BI:
-Dax, writing functions, ETL, calculated columns, data visualization, data modeling
+Power BI: Dax, writing functions, ETL, calculated columns, data visualization, data modeling
 
-##### Python: 
-Pandas, Matplotlib, Numpy, Writing functions, building a product funnel, statistics
+Python: Pandas, Matplotlib, Numpy, Writing functions, building a product funnel, statistics
+
 
 ### Results & Business Recommendation: 
 
