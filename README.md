@@ -37,7 +37,7 @@ Python: Pandas, Matplotlib, Numpy, Writing functions, building a product funnel,
 
 ### Results & Business Recommendation: 
 
-Creating a dashboard to track product orders gives product and sales stakeholders visibility into the product funnel both overall and for specific clients. Because of democratizing this data, stakeholders are now able to self serve, and the analytics team now has 5 less hours of ad hoc requets per week. This analysis showed us that almost 50% of orders fall out before entering the workflow, and less than 25% of users enter their banking credentials to connect their account. According to the model built in Python, increasing user interaction rates by 1% will result in $285 more in daily revenue and increasing completed bank login attempts by 1% will result in $405 more in daily revenue.
+Creating a dashboard to track product orders gives product and sales stakeholders visibility into the product funnel both overall and for specific clients. Because of democratizing this data, stakeholders are now able to self serve, and the analytics team now has 5 less hours of ad hoc requets per week. This analysis showed us that almost 50% of orders fall out before entering the workflow, and less than 25% of users enter their correct banking credentials to connect their account. According to the model built in Python, increasing user interaction rates by 1% will result in $285 more in daily revenue and increasing completed bank login attempts by 1% will result in $405 more in daily revenue.
 
 ![Screenshot 2024-05-25 at 2 04 48 PM](https://github.com/jessramosdata/Product-Funnel-SaaS-FinTech/assets/59672972/d8cbde85-be7e-4c16-a132-02a63e357b1d)
 
