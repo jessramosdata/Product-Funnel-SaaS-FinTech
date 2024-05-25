@@ -19,9 +19,12 @@ Completed orders are essential for this SaaS Fintech company since they're direc
 
 ### Skills:
 
-#### SQL: CTEs, Joins, Case, aggregate functions
+#### SQL:
 
-#### Power BI: Dax, writing functions, ETL, calculated columns, data visualization, data modeling
+CTEs, Joins, Case, aggregate functions
+
+#### Power BI:
+Dax, writing functions, ETL, calculated columns, data visualization, data modeling
 
 #### Python: Pandas, Matplotlib, Numpy, Writing functions, building a product funnel, statistics
 
