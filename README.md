@@ -16,57 +16,28 @@ Completed orders are essential for this SaaS Fintech company since they're direc
 
 3. Conduct a more detailed funnel analysis in Python to simulate changes and determine the best areas of opportunity.
 
-
 ### Skills:
 
 #### SQL:
-
 CTEs, Joins, Case, aggregate functions
 
 #### Power BI:
 Dax, writing functions, ETL, calculated columns, data visualization, data modeling
 
-#### Python: Pandas, Matplotlib, Numpy, Writing functions, building a product funnel, statistics
+#### Python: 
+Pandas, Matplotlib, Numpy, Writing functions, building a product funnel, statistics
+
+### Results & Business Recommendation: 
+
+Creating a dashboard to track product orders gives product and sales stakeholders visibility into the product funnel both overall and for specific clients. Because of democratizing this data, stakeholders are now able to self serve, and the analytics team now has 5 less hours of ad hoc requets per week. This analysis showed us that almost 50% of orders fall out before entering the workflow, and less than 25% of users enter their banking credentials to connect their account. According to the model built in Python, increasing user interaction rates by 1% will result in $285 more in daily revenue and increasing completed bank login attempts by 1% will result in $405 more in daily revenue.
+
+Because the biggest revenue impacts will likely come from increasing the user interaction rate & completed login attempts, I recommend a few product adjustments: 
+
+1. Send inactive users reminder emails and texts to encourage them to enter the platform to complete their order.
+2. Work with clients (mortgage lenders) to help coach the users through the process and see the value in doing so.
+3. Add copy at the beginning of the workflow stating that the process only takes 5 min, and feature a progress bar throughout.
+4. Add copy at the bank login page to encourage users to look up their credentials to make sure they're correct.
+
+I believe these adjustments will best tackle the largest workflow fallout points, increase conversion & revenue, and save the analytics team hours per week from a decrease in ad hoc requests.
 
 
-### Results: 
-
-Creating a dashboard to track product orders gives product and sales stakeholders visibility into the product funnel both overall and for specific clients. Because of democratizing this data, stakeholders are now able to self serve, and the analytics team now has 5 less hours of ad hoc requets per week. This analysis showed us that almost 50% of orders fall out before entering the workflow, and less than 25% of users enter their banking credentials to connect their account. According to the model built in Python, increasing user interaction rates by 1% will result in $285 more in daily revenue and increasing completed bank logins by 1% will result in $405 more in daily revenue.
-
-
-
-
-Summary: 
-
-The Order Completion Flowchart visual (PDF located in the repository) shows the order completion metrics (described below) that were tracked to optimize order success. 
-
-The Python model shows how to maximize order success and optimize revenue for our current product based on success rates for certain points in our software workflow. This helps identify where the opportunity is to create the biggest lift in revenue for the smallest lift in workflow completion metrics. It helps solve the business problem of identifying where customer workflow fallout needs to be improved. 
-
-The function, **success**, models VOIE Order Completion metrics based on the given inputs. The input and output documentation is below. The function is designed to demonstrate how increases in the VOIE workflow metrics can affect VOIE KPIs and revenue.
-
-## Function Inputs:
-
-**inc_total_VOIE**: Amount to increase VOIE orders by (raw #)
-
-**inc_interact_rate**: Amount to increase Interaction Rate by (%, should be between 0 & 1)
-
-**inc_attempt_rate**: Amount to increase Login Attempt Rate by (%, should be between 0 & 1)
-
-**inc_complete_rate**: Amount to increase Completed Login Rate by (%, should be between 0 & 1)
-
-**labels**: Whether you want labels in your output (Binary variable, 1 provides labels & 0 doesn't)
-
-## Function Outputs:
-
-**VOIEs Started:** Total number of VOIE orders started.
-
-**VOIEs Completed:** Total number of VOIE orders completed.
-
-**Pullthrough:** The % of VOIE orders that are completed out of those that are interacted with.
-
-**Borrower Conversion:** The % of VOIE orders that are completed out of the total VOIEs Started (includes those that are not interacted with).
-
-**Revenue:** Total Revenue.
-
-
-**NOTE:** The model is produced based on baseline metrics from the month of March 2022. Each change/increase put into the model will be based on the overall starting points from March.
