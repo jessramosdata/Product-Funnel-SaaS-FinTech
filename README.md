@@ -1,4 +1,34 @@
-# Order-Success-Model-and-Revenue-Optimization
+# Product Funnel Analysis for SaaS FinTech
+
+## Executive Summary:
+
+
+### Business Problem: 
+
+Completed orders are essential for this SaaS Fintech company since they're directly tied to revenue. Product and sales stakeholders have noticed that the product has a lower conversion rate than expected (based on users who start orders vs. complete the order). How can we determine where users are falling out of the workflow and make product adjustments to encourage users to complete their orders? 
+
+
+### Methodology: 
+
+1. SQL query that extracts, cleans, and transforms the data from the database
+   
+2. Build a dashboard in Power BI that tracks the number of orders in each status.
+
+3. Conduct a more detailed funnel analysis in Python to simulate changes and determine the best areas of opportunity.
+
+
+### Skills:
+
+SQL: CTEs, Joins, Case, aggregate functions
+
+Power BI: Dax, writing functions, ETL, calculated columns, data visualization, data modeling
+
+Python: Pandas, Matplotlib, Numpy, Writing functions, building a product funnel, statistics
+
+
+
+
+
 
 Summary: 
 
