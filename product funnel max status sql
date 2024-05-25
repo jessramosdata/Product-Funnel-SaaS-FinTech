@@ -1,4 +1,5 @@
-
+-- This query pulls for each order the current status and the max status reached within the order completion funnel.
+-- The output dataset was put into Power BI to make the attached dashboard.
 
 WITH StatusLevels AS(
 SELECT vr.OrderID, vsl.PreviousStatus, vsl.NewStatus, vsl.StatusTimestamp, [Order Date], [CurrentStatus], CompanyID,
