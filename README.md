@@ -49,6 +49,12 @@ Because the biggest revenue impacts will likely come from increasing the user in
 3. Add copy at the beginning of the workflow stating that the process only takes 5 min, and feature a progress bar throughout.
 4. Add copy at the bank login page to encourage users to look up their credentials to make sure they're correct.
 
+### Next Steps: 
+
+1. AB Test copy within the workflow
+2. Train clients and users
+3. Measure email and text open & click rates
+
 I believe these adjustments will best tackle the largest workflow fallout points, increase conversion & revenue, and save the analytics team hours per week from a decrease in ad hoc requests.
 
 
